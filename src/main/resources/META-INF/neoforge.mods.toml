@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createguide"
+version = "1.0.0"
+displayName = "Create Guide"
+description = '''
+In-game AI assistant for Create and Create Aeronautics.
+Press a hotkey to ask a question: the assistant sees a screenshot of your game,
+your inventory and the real recipes of your modpack.
+'''
+
+[[dependencies.createguide]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.createguide]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "CLIENT"
